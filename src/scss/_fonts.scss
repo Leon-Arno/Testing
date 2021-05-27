@@ -1,0 +1,42 @@
+//---------------------------------------------
+//
+//  Fonts
+//
+//    1. Loading Mixins
+//    2. Loading Fonts
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Loading Mixins
+//---------------------------------------------
+
+@import "mixins/google-fonts";
+
+//---------------------------------------------
+// 2. Loading Fonts
+//---------------------------------------------
+
+@include googleFont(
+  (
+    "name": "Roboto",
+    "folder": "Roboto",
+    "files": "Roboto",
+    "weights": (
+      300,
+      400,
+      700
+    )
+  )
+);
+
+// IMPORTED GOOGLE FONTS
+
+// FONT: Press Start 2P
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+// FONT: Quicksand (sans-serif)
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+// FONT: Source Code Pro
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");

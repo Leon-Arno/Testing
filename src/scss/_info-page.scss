@@ -1,0 +1,36 @@
+// THIS IS A STYLESHEET FOR ALL THE INFO-PAGES:
+// überuns.html, mitmachen.html, kontakt.html
+// agb.html, datenschutz.html, impressum.html
+
+// PINK-BACKGROUND CONTAINER STYLE
+
+.info-box {
+  border: 1px dashed $heading-color;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.589);
+
+  h2 {
+    padding: 20px 10px 0px 0px;
+    color: $heading-color;
+  }
+
+  p {
+    padding: 10px;
+    color: black;
+    font-size: 0.8rem;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .info-box {
+    margin-top: 80px;
+    width: 70%;
+  }
+}
